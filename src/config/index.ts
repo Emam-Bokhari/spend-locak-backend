@@ -36,4 +36,8 @@ export default {
     secret: process.env.PLAID_SECRET,
     api_endpoint: process.env.PLAID_API_ENDPOINT,
   },
+  anysport: {
+    base_url: process.env.ANYSPORT_BASE_URL,
+    api_key: process.env.ANYSPORT_API_KEY,
+  },
 };
