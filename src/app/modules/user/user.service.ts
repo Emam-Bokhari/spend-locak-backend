@@ -191,14 +191,6 @@ const getAllUsers = async (query: Record<string, any>) => {
     data: result,
   };
 };
-// .populate({
-//   path: "airlineVerification",
-//   match: { paymentStatus: "paid" },
-//   select: "designation plan employeeId images paymentStatus paymentMethod",
-//   populate: {
-//     path: "plan",
-//     select: "-active",
-//   },
 
 export const unfollowUser = async (userId: string, targetId: string) => {
   if (userId === targetId) {
