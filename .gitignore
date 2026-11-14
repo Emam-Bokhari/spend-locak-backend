@@ -1,7 +1,7 @@
 node_modules
 dist
-.env
 fcmServiceAccountKey.json
 
 /winston
 /uploads
+config.bat

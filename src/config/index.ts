@@ -29,7 +29,7 @@ export default {
   },
   stripe: {
     public_key: process.env.STRIPE_PUBLIC_KEY,
-    secret_key: process.env.STRIPE_SECREAT_KEY,
+    secret_key: process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECREAT_KEY,
   },
   plaid: {
     client_id: process.env.PLAID_CLIENT_ID,
